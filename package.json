@@ -53,7 +53,7 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
-    "@types/micro": "^7.3.8",
+    "@types/micro": "^10.0.0",
     "@types/node": "22.19.13",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
