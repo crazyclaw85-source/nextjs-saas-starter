@@ -63,6 +63,7 @@ export const organizations = pgTable(
     ownerId: uuid('owner_id')
       .notNull()
       .references(() => users.id, { onDelete: 'cascade' }),
+    clerkOrgId: varchar('clerk_org_id', { length: 256 }).unique(),
     // Subscription fields
     paddleCustomerId: varchar('paddle_customer_id', { length: 256 }),
     paddleSubscriptionId: varchar('paddle_subscription_id', { length: 256 }),
