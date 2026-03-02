@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { appRouter } from '@/lib/trpc/router'
 import { createTRPCContext } from '@/lib/trpc/trpc'
 import { fetchRequestHandler } from '@trpc/server/adapters/fetch'
